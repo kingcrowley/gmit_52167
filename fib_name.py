@@ -25,3 +25,8 @@ print("My surname is", name)
 print("The first letter", first, "is number", firstno)
 print("The last letter", last, "is number", lastno)
 print("Fibonacci number", x, "is", ans)
+
+# My surname is Crowley
+# The first letter C is number 67
+# The last letter y is number 121
+# Fibonacci number 188 is 871347450517368352816615810882615488381
