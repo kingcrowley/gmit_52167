@@ -5,4 +5,16 @@
 # That is, on the screen should be printed the petal length, petal width, sepal length and sepal width,
 #  and these values should have the decimal places aligned, with a space between the columns.
 
-#
+# open file iris.data in read mode (for text which is the default anyway)
+
+
+with open('iris.data', 'rt') as irisdata:
+    # for each line in the data set
+    for line in irisdata:
+        # print(line)
+        # split the line and store it
+        splitline = line.split(",")
+        # print out details needed with the added string details to show the user the details needed
+        print("Petal Length: " + splitline[0] + " " + "Petal Width: " + splitline[1] + " " + "Sepal Length: " + splitline[2] + " "+ "Sepal Width: " + splitline[3]) 
+# close the file       
+irisdata.close()
