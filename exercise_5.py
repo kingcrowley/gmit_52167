@@ -15,6 +15,6 @@ with open('iris.data', 'rt') as irisdata:
         # split the line and store it
         splitline = line.split(",")
         # print out details needed with the added string details to show the user the details needed
-        print("Petal Length: " + splitline[0] + " " + "Petal Width: " + splitline[1] + " " + "Sepal Length: " + splitline[2] + " "+ "Sepal Width: " + splitline[3]) 
+        print("Sepal Length: " + splitline[0] + " " + "Sepal Width: " + splitline[1] + " " + "Petal Length: " + splitline[2] + " "+ "Petal Width: " + splitline[3]) 
 # close the file       
 irisdata.close()
