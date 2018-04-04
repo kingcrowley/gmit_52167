@@ -17,7 +17,7 @@ for i in a[1:]:
 
  # if we know the greatest common divisor (GCD) of integers a and b, 
  # we can calculate the LCM using the following formula. LCM(a,b) = (a*b)/GCD(a,b)
- # i found this info at https://www.idomaths.com/hcflcm.php
+ # found this info comes from at https://www.idomaths.com/hcflcm.php 
   lcm = lcm*i/gcd(lcm, i)
  # print("Current lcm: "+ str(lcm))
 print("Overall :"+ str(lcm))
